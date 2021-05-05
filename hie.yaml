@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "dunskify:lib"
+
+    - path: "./app/Main.hs"
+      component: "dunskify:exe:dunskify-exe"
+
+    - path: "./app/Paths_dunskify.hs"
+      component: "dunskify:exe:dunskify-exe"
+
+    - path: "./test"
+      component: "dunskify:test:dunskify-test"
