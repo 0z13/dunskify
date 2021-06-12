@@ -8,12 +8,12 @@ Aligned { replace:"~Math&nl;\begin{aligned}&nl;&source;&nl;\end{aligned}&nl;~" }
 
 ## Opgave 1.1 {-}
 
-Lad $z \in \mathbb{C}$ være givet ved  
+Lad $z \in \mathbb{C}$ vaere givet ved  
 
 ~ Math 
   z = \sqrt{3} \frac{5}{12} + i\frac{5}{12}
 ~
-Vi får så givet følgen $\{a_n\}_n\in\mathbb{N}$ ved $(b \cdot z)^n$, hvor $b \in
+Vi faar saa givet foelgen $\{a_n\}_n\in\mathbb{N}$ ved $(b \cdot z)^n$, hvor $b \in
 \mathbb{R}$. 
 
 
@@ -41,7 +41,7 @@ De to tal evalueres ved enhedscirklen og vi finder at $\theta =
   z = \frac{5}{6}(\cos \frac{\pi}{6} + \sin \frac{\pi}{6})
 ~
 
-Så $z^3$ og $z^6$ gives ved
+Saa $z^3$ og $z^6$ gives ved
 
 ~ Aligned
 z^3 &= \frac{5}{6} \cdot 3(\cos (\frac{\pi}{6})^3 + \sin (\frac{\pi}{6})^3) \\
@@ -51,8 +51,8 @@ z^3 &= \frac{5}{6} \cdot 3(\cos (\frac{\pi}{6})^3 + \sin (\frac{\pi}{6})^3) \\
 z^6 &= \frac{5}{6} \cdot 6(\cos (\frac{\pi}{6})^6 + \sin (\frac{\pi}{6})^6) \\
 ~
 
-Det kan ses at $z^6 \in \mathbb{R}$ således, vi betragter $z^6$,
-nu ikke på polarformen. Først sammensættes brøken
+Det kan ses at $z^6 \in \mathbb{R}$ saaledes, vi betragter $z^6$,
+nu ikke paa polarformen. Foerst sammensaettes broeken
 
 ~ Aligned
   z^6 = \left( \sqrt{3} \frac{5}{12} + i\frac{5}{12} \right)^6 = \left(\frac{5(\sqrt{3} + 5i)}{12}\right)^6
@@ -63,17 +63,17 @@ Vi fordeler eksponenten
 ~ Aligned
   z^6 = \left(\frac{5^6 (\sqrt{3} + 5i)^6}{12^6}\right)
 ~
-Og kigger nu på den imaginære del af udtrykket
+Og kigger nu paa den imaginaere del af udtrykket
 
 ~ Aligned
  (\sqrt{3} + 5i)^6 = ((\sqrt{3} + 5i)(\sqrt{3} + 5i)^2)^2 = (4i \cdot 2)^2 =
  8i^2 = -64
 ~
-Derfor må $z^6 \in \mathbb{R}$. Hvilket vel er tilfældet for hvert multiplum
+Derfor maa $z^6 \in \mathbb{R}$. Hvilket vel er tilfaeldet for hvert multiplum
 af to.
 ### b)  {-}
 
-Et udtryk for $|\{a_n\}|$ kunne være:
+Et udtryk for $|\{a_n\}|$ kunne vaere:
 
 ~ Aligned
 |\{a_n\}| = (\frac{5}{6}b)^2
@@ -81,12 +81,12 @@ Et udtryk for $|\{a_n\}|$ kunne være:
 
 ### c) {-}
 
-Vi ved at en kompleks talfølge kun konvegere når $|z| < 1$, hvor følgen går
-mod 0, og i det tilfælde $z = 1$, hvor følgen mod 1. Vi leder efter
-de $b \in \mathbb{R}$ hvor det er tilfældet. 
+Vi ved at en kompleks talfoelge kun konvegere naar $|z| < 1$, hvor foelgen gaar
+mod 0, og i det tilfaelde $z = 1$, hvor foelgen mod 1. Vi leder efter
+de $b \in \mathbb{R}$ hvor det er tilfaeldet. 
 
 ## Opgave 1.2 {-}
-En følge er givet ved
+En foelge er givet ved
 
 ~ Math
  \{a_n\} = \frac{1}{n^2} - \frac{1}{(n+1)^2}
@@ -94,28 +94,28 @@ En følge er givet ved
 
 ### a) {-}
 
-Følgen ${\{a_n\}$ konvegere mod 0 eftersom
+Foelgen ${\{a_n\}$ konvegere mod 0 eftersom
 
 ~ Math
 \{a_n\} = \frac{1}{n^2} - \frac{1}{(n+1)^2} = \frac{(n+1)^2 - n^2}{n^2(n+1)^2} =
 \frac{1+2n}{n^2(n+1)^2}
 ~
-Vi ved fra øvelserne at $\{a_n\} \to 0$ som $n \to \infty$, eftersom nævneren
-vokser en størrelsesorden hurtigere.
+Vi ved fra oevelserne at $\{a_n\} \to 0$ som $n \to \infty$, eftersom naevneren
+vokser en stoerrelsesorden hurtigere.
 
-Nu betragtes $\{n^2a_n\}$, som også konvegere mod 0.
+Nu betragtes $\{n^2a_n\}$, som ogsaa konvegere mod 0.
 
 ~ Aligned 
   \{n^2a_n\} = \frac{n^2}{n^2} - \frac{n^2}{(n+1)^2} = 1 - \frac{n^2}{(n+1)^2}
 ~ 
 
-Eftersom  $\frac{n^2}{(n+1)^2} \to 1$, igen et udtryk vi har set før, som $n \to \infty$, vil $\{n^2 a_n\}$ gå
+Eftersom  $\frac{n^2}{(n+1)^2} \to 1$, igen et udtryk vi har set foer, som $n \to \infty$, vil $\{n^2 a_n\}$ gaa
 mod $0$.
 
 ### b) {-}
 
-Følgen $\{a_n n^3\} \to 2 $ når  $n \to \infty$, hvilket ses let ved at gange
-parenteserne ud og forlænge med den største eksponent.
+Foelgen $\{a_n n^3\} \to 2 $ naar  $n \to \infty$, hvilket ses let ved at gange
+parenteserne ud og forlaenge med den stoerste eksponent.
 
 ~ Aligned 
   \{a_n n^3\} &= \frac{n^3}{n^2} - \frac{n^3}{(n+1)^2} \\
@@ -123,27 +123,26 @@ parenteserne ud og forlænge med den største eksponent.
   \{a_n n^3\} &= \frac{n^3+2n^4}{n^4+n^2+2n^3} \\
   \{a_n n^3\} &= \frac{n^3/n^4+(2n^4)/n^4}{n^4/n^4+n^2/n^5+2n^3/n^5}
 ~
-Hvis vi betragter tæller og nævner som to følger, og 
-lader $n \to \infty$, finder vi så ved sætning 1.39 at $\{a_n n^3\}$ konvegere mod 2.
+Hvis vi betragter taeller og naevner som to foelger, og 
+lader $n \to \infty$, finder vi saa ved saetning 1.39 at $\{a_n n^3\}$ konvegere mod 2.
 
 ## Opgave 1.3
 
 ### a) {-}
-Følgen $\{X_b\}$ nedenunder kreaver $a = [0, \infty)$ for
+Foelgen $\{X_b\}$ nedenunder kreaver $a = [0, \infty)$ for
 ~ Math
   X_b = \frac{1-ab}{1+ab} 
 ~
 
-Vi kan således betragte følgen som en afbildning $f : A \sub
+Vi kan saaledes betragte foelgen som en afbildning $f : A \sub
 \mathbb{r}} \to \mathbb{r}}$ 
 
 ~ Aligned 
    f(a) &= \frac{1-ab}{1+ab}  = \frac{1}{1+ab}  - \frac{ab}{1+ab} \\
 ~
 
-Vi lægger først mærke til at (1 + ab) i første led stiger monotont, og
-dermed går første led mod 0, på samme måde som $1/x$ som vi har set før, 
-det andet led er en kvotient af to lineare størrelser og går dermed mod 1. 
-sætning 1.39 tillader at vi betragter udtrykket ledvis og vi siger at $f(a) \to
--1$ når $a \to \infty$ 
-
+Vi laegger foerst maerke til at (1 + ab) i foerste led stiger monotont, og
+dermed gaar foerste led mod 0, paa samme maade som $1/x$ som vi har set foer, 
+det andet led er en kvotient af to lineare stoerrelser og gaar dermed mod 1. 
+saetning 1.39 tillader at vi betragter udtrykket ledvis og vi siger at $f(a) \to
+-1$ naar $a \to \infty$ 
